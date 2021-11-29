@@ -1,11 +1,11 @@
  {
   "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
-  "@type": "JupyterNotebook",
-  "name": "eossr-examples",
-  "description": "ESCAPE OSSR library examples",
-  "license": "https://spdx.org/licenses/MIT",
-  "softwareVersion": "v0.3.3",
-  "codeRepository": "https://github.com/Zarquan/OSSR-library-notebook-examples",
+  "@type": "OCI-container",
+  "name": "eossr-client",
+  "description": "ESCAPE OSSR client",
+  "license": "https://spdx.org/licenses/GPL-3.0-or-later.html",
+  "softwareVersion": "v1.0.0",
+  "codeRepository": "https://github.com/Zarquan/OSSR-library-docker-container",
   "developmentStatus": "active",
   "isAccessibleForFree": true,
   "isPartOf": [
@@ -13,8 +13,8 @@
     "https://gitlab.in2p3.fr/escape2020",
     "https://projectescape.eu/"
   ],
-  "issueTracker": "https://github.com/Zarquan/OSSR-library-notebook-examples/issues",
-  "readme": "https://github.com/Zarquan/OSSR-library-notebook-examples/blob/main/README.md",
+  "issueTracker": "https://github.com/Zarquan/OSSR-library-docker-container/issues",
+  "readme": "https://github.com/Zarquan/OSSR-library-docker-container/blob/main/README.md",
   "programmingLanguage": [
     {
       "@type": "ComputerLanguage",
@@ -22,8 +22,8 @@
       "url": "https://www.python.org/"
     }
   ],
-  "keywords": ["uri://escape.eu/jupyter-notebook"],
-  "runtimePlatform": "Jupyter",
+  "keywords": ["uri://escape.eu/task-type/oci-container"],
+  "runtimePlatform": "oci-runtime",
   "downloadUrl": "",
   "installUrl": "",
   "releaseNotes": "Initial commit",
