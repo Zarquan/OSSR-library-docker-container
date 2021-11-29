@@ -23,7 +23,7 @@
     }
   ],
   "keywords": ["uri://escape.eu/task-type/oci-container"],
-  "runtimePlatform": "oci-runtime",
+  "runtimePlatform": "uri://escape.eu/platform/oci-runtime",
   "downloadUrl": "",
   "installUrl": "",
   "releaseNotes": "Initial commit",
