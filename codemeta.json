@@ -1,0 +1,53 @@
+ {
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "JupyterNotebook",
+  "name": "eossr-examples",
+  "description": "ESCAPE OSSR library examples",
+  "license": "https://spdx.org/licenses/MIT",
+  "softwareVersion": "v0.3.3",
+  "codeRepository": "https://github.com/Zarquan/OSSR-library-notebook-examples",
+  "developmentStatus": "active",
+  "isAccessibleForFree": true,
+  "isPartOf": [
+    "https://gitlab.in2p3.fr/escape2020/wp3/eossr",
+    "https://gitlab.in2p3.fr/escape2020",
+    "https://projectescape.eu/"
+  ],
+  "issueTracker": "https://github.com/Zarquan/OSSR-library-notebook-examples/issues",
+  "readme": "https://github.com/Zarquan/OSSR-library-notebook-examples/blob/main/README.md",
+  "programmingLanguage": [
+    {
+      "@type": "ComputerLanguage",
+      "name": "Python",
+      "url": "https://www.python.org/"
+    }
+  ],
+  "keywords": ["uri://escape.eu/jupyter-notebook"],
+  "runtimePlatform": "Jupyter",
+  "downloadUrl": "",
+  "installUrl": "",
+  "releaseNotes": "Initial commit",
+  "dateCreated": "2021-11-29",
+  "datePublished": "2021-11-29",
+  "dateModified": "2021-11-29",
+  "operatingSystem":  "",
+  "maintainer": {
+    "@type": "Person",
+    "@id": "https://github.com/Zarquan",
+    "givenName": "Dave",
+    "familyName": "Morris",
+    "email": "dmr@roe.ac.uk",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "University of Edinburgh"
+    }
+  },
+  "funder":[
+    {
+      "@type": "Organization",
+      "name": "European Commission",
+      "@id": "https://doi.org/10.13039/501100000780"
+    }
+  ],
+  "funding": "824064"
+}
